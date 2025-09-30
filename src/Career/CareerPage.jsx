@@ -8,6 +8,7 @@ import Footer from "../Othercomps/Footer";
 import officeimg from "../assets/careerimages/office.png";
 import { useState } from "react";
 import Jobpage from "./Jobpage";
+import Copyright from "../Othercomps/Copyright";
 
 // Hero Section component
 function HeroSection() {
@@ -221,6 +222,7 @@ export default function CareerPage() {
       <VoicesOfOurTeam />
       <Jobpage/>
       <Footer />
+      <Copyright/>
     </>
   );
 }
